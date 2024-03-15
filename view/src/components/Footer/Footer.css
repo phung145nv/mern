@@ -1,0 +1,31 @@
+.footer 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.footer .footer-link
+{
+    list-style-type: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+.footer .footer-link a 
+{
+    text-decoration: none;
+    color: black;
+}
+.footer .footer-social-media
+{
+    display: flex;
+    width: 120px;
+    justify-content: space-between;
+}
+
+.footer-copyright
+{
+    font-weight: 500;
+}

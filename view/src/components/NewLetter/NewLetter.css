@@ -1,0 +1,43 @@
+.newletter
+{
+    margin-top: 50px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(52, 15, 54));
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.newletter  h2, form, p
+{
+    text-align: center;
+}
+
+.newletter form
+{
+    border: 1px solid grey;
+    border-radius: 25px;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding-left: 15px;
+    background-color: white;
+}
+
+.newletter input 
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+}
+
+.btn-custom
+{
+    background-color: #ffba00;
+    border-radius: 25px;
+    width: 120px;
+}
+
+
